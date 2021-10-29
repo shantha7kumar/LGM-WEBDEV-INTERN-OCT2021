@@ -1,0 +1,128 @@
+button {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(0, 191, 255);
+  padding: 12px 10px;
+  margin-top: -50px;
+}
+button:hover {
+  transition: 200ms;
+  scale: 1.03;
+  background-color: rgb(10, 255, 10);
+}
+
+.pro-1 {
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.pro-2 {
+  height: 100%;
+  float: left;
+  width: 20%;
+}
+
+.provid {
+  margin-top: 100px;
+  margin-left: 420px;
+  margin-right: 420px;
+  margin-bottom: 100px;
+}
+
+.row {
+  height: 50px;
+  padding: 20px 50px 0px 30px;
+}
+
+.box {
+  background-color: rgb(10, 10, 10);
+  color: rgb(248, 240, 243);
+  /* height: 18vh; */
+}
+
+.box-2 {
+  margin-left: 150px;
+}
+
+.avatar {
+  border-radius: 30%;
+}
+
+.column-3 {
+  float: left !important;
+  width: 33% !important;
+}
+h2 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.profile {
+  border: 1.5px initial rgb(160, 33, 86);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 300px;
+  margin: 20px 50px;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+  background-color: rgb(10, 255, 10);
+}
+
+.profile:hover {
+  transition: 400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 191, 255);
+  transform: translateY(-10px);
+}
+.name {
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+}
+.email {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.user {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.loader {
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 700px) {
+  .profile {
+    width: 140%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .name {
+    font-size: medium;
+  }
+  .column-3 {
+    float: left;
+    margin-left: 60px;
+  }
+
+  .loader {
+    align-self: center;
+    width: 100%;
+  }
+
+  .box {
+    width: 150vh;
+  }
+
+  .box-3 {
+    display: block;
+    margin: auto;
+  }
+}
